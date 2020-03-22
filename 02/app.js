@@ -13,7 +13,7 @@ let data = [];
 
 // listen for button
 btn.addEventListener("click", () => {
-  // reset the price to deafult
+  // reset the price to default
   sum = 0;
   // change HTMLCollection to NodeList
   [...carts].forEach((cart, index) => {
